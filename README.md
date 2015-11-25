@@ -1,4 +1,4 @@
-# OmniAuth::ScanAnap
+# OmniAuth::ScanSnap
 
 OmniAuth OAuth2 Strategy for ScanSnap
 
