@@ -28,8 +28,8 @@ List of options you can pass to provider
 
 | Option | Required? | Explanation |
 |:-------|:---------:|:------------|
-| country | YES | ISO 3166-1 alpha-2 code of a country for which you want to retrieve api/authentication endpoint. (e.g. 'jp' for Japan) ||
-| language | NO | ISO 639-1 code of a language for which you want to retrieve api/authentication endpint. (e.g. 'JP' for Japanese) ||
+| country | YES | ISO 3166-1 alpha-2 code of a country for which you want to retrieve api/authentication endpoint. (e.g. 'JP' for Japan) ||
+| language | NO | ISO 639-1 code of a language for which you want to retrieve api/authentication endpint. (e.g. 'ja' for Japanese) ||
 | region_api_uri | NO | API endpoint uri to retrieve local api/authentication endpoint urls. You don't need to pass this option unless you have special need to overwrite default uri. |
 
 ## License
