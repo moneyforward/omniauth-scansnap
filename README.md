@@ -18,7 +18,7 @@ And then execute:
 
 ## Usage
 
-```
+```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :scansnap, ENV['SCANSNAP_CLIENT_ID'], ENV['SCANSNAP_CLIENT_SECRET'], country: 'JP', language: 'ja'
 end
