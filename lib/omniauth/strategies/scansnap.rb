@@ -1,3 +1,5 @@
+require 'omniauth-oauth2'
+
 OmniAuth.config.add_camelization('scansnap', 'ScanSnap')
 
 module OmniAuth
