@@ -1,5 +1,7 @@
 # OmniAuth::ScanSnap
 
+[![Build Status](https://travis-ci.org/moneyforward/omniauth-scansnap.svg)](https://travis-ci.org/moneyforward/omniauth-scansnap)
+
 OmniAuth OAuth2 Strategy for ScanSnap
 
 ## Installation
