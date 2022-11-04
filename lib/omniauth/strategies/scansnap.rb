@@ -31,7 +31,9 @@ module OmniAuth
         locale = language ? "#{language}_#{country}" : country
         region_api_uri = options.delete(:region_api_uri) || "https://api.cloud.scansnap.com/api/region/"
 
-        response = Faraday.get("#{region_api_uri}#{locale}")
+        connection = Faraday.new "#{region_api_uri}", ssl: options[:client_options][:ssl] || true
+
+        response = connection.get("#{locale}")
         body = JSON.parse(response.body)
         body['auth_url']
       end
